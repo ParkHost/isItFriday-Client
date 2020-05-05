@@ -1,24 +1,11 @@
-# client
+## Is it already Friday (client)?
 
-## Project setup
-```
-npm install
-```
+### Basic vanilla check if it is friday and if it is for how long (if it isn't how long do you have to wait)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+* [ ] Backend - NodeJS + Express
+* [ ] Frontend - VUEjs
+* [ ] Make template to run nodejs in lxc's
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Feedback
