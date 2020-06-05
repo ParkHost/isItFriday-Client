@@ -1,3 +1,3 @@
-const API_URL = window.location.hostname === 'localhost' ? 'http://localhost:5000' : 'http://192.168.99.207:5000';
+const API_URL = window.location.hostname === 'localhost' ? 'http://localhost:5000' : 'http://isitfriday.parkhost.eu';
 
 export default API_URL;
