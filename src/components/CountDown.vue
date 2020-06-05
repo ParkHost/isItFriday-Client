@@ -10,9 +10,6 @@
 
 <script>
 import { ref } from "@vue/composition-api";
-// import { format } from 'date-fns'
-// import { formatDistance } from 'date-fns';
-// import differenceInDays from 'date-fns/difference_in_days'
 
 export default {
   setup() {
@@ -29,7 +26,6 @@ export default {
       const date = new Date();
       const resultDate = new Date(date.getTime());
       const dayOfWeek = 5; // 5 = friday (zero based)
-      console.log(date.getDay());
       resultDate.setDate(
         date.getDate() + ((7 + dayOfWeek - date.getDay() - 1) % 7) + 1
       ); // calc the next friday
