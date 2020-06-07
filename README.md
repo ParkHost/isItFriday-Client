@@ -1,6 +1,6 @@
-## Is it already Friday (client)?
+## Is it Friday (client)?
 
-### Basic vanilla check if it is friday and if it is for how long (if it isn't how long do you have to wait)
+### Check to time until the next friday, if it is friday, it checks how long it remains friday.
 
 * [ ] Backend - NodeJS + Express
 * [ ] Frontend - VUEjs
